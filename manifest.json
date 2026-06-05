@@ -1,0 +1,25 @@
+{
+  "manifest_version": "0.4",
+  "name": "notes-mcp-server",
+  "version": "1.0.0",
+  "description": "Local notes manager with tags and completion status",
+  "author": {
+    "name": "Alex"
+  },
+  "server": {
+    "type": "python",
+    "entry_point": "server.py",
+    "mcp_config": {
+      "command": "${__dirname}/venv/Scripts/python.exe",
+      "args": ["${__dirname}/server.py"]
+    }
+  },
+  "tools": [
+    {"name": "create_note", "description": "Create a new note"},
+    {"name": "list_notes", "description": "List all notes"},
+    {"name": "search_notes", "description": "Search notes"},
+    {"name": "get_notes_by_tag", "description": "Get notes by tag"},
+    {"name": "complete_note", "description": "Mark note as completed"},
+    {"name": "delete_note", "description": "Delete a note"}
+  ]
+}
