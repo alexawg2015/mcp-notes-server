@@ -26,7 +26,9 @@ homework/
 │   ├── Add_notes.png
 │   ├── list_and_delete_and_completed.png
 │   ├── list_complete_not_completed.png
-│   └── claude_mcp_note.png
+│   ├── claude_mcp_note.png
+│   ├── Connectors.png
+│   └── GoogleDrive_Slack_mcp.png
 └── README.md
 ```
 
